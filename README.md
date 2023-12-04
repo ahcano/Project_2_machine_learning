@@ -1,5 +1,6 @@
 # Project Title:  
-# Project Objective(s): Apply Machine Learning algorithms to analyze relationships between the consumer price index and variables such as CDN TSX index, Prime Rate, Home Ownership Rate, GDP Growth and CDN/USD exchange rate.
+## 
+Project Objective(s): Apply Machine Learning algorithms to analyze relationships between the consumer price index and variables such as CDN TSX index, Prime Rate, Home Ownership Rate, GDP Growth and CDN/USD exchange rate.
 
 
 # Team Members
