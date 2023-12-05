@@ -1,4 +1,4 @@
-Date,Price_Index_Detail_Toronto_Monthly_All_Items ,Price_Index_Change,Inflation Rate,Canadian_Prime_Rate ,CND_TSX_Indx,Unemployment_Rate,GDP_growth ,CND_USD_Exchange
+date,price_indextor,price_index_change,inflation_rate,canadian_prime_rate,cnd_tsx_indx,unemployment_rate,GDP_growth,CND_USD_exchange
 2004-10-01,104.9,0,0.023,0.043,0.023,0.059,0.065,0.8
 2004-11-01,105.2,0.003,0.024,0.043,0.018,0.059,0.065,0.835
 2004-12-01,105.1,-0.001,0.021,0.043,0.024,0.059,0.065,0.824
