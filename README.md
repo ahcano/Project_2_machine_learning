@@ -13,13 +13,13 @@ Project Overview: The objective of this project is to predict the Canada GDP Gro
 ## Nasir Farah
 
 # Data Sources
-## CPI (data source:  ) Nasir
-## Prime Rate (data source: ) Nasir
-## GDP (data source: ) Andrew
-## Employment rate (data source: ) Andrew
-## Home ownership rate (data source: ) Ryan
-## Canadian dollar against USD. https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
-## S&P 500 (Canadian) (data source: ) Ryan
+### CPI (data source:  ) Nasir
+### Prime Rate (data source: ) Nasir
+### GDP (data source: ) Andrew
+### Employment rate (data source: ) Andrew
+### Home ownership rate (data source: ) Ryan
+### Canadian dollar against USD. https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
+### S&P 500 (Canadian) (data source: ) Ryan
 
 # Usage and installation instructions
 
