@@ -40,4 +40,4 @@ This image shows GDP Growth in blue. It can be deducted that the COVID pandemic 
 
 <img width="447" alt="Screenshot 2023-12-07 175011" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/fa72cfdd-0b89-4b6c-8e97-85ee053d8bc4">
 
-![2023-12-07 (1)](https://github.com/ahcano/Project_2_machine_learning/assets/141194281/bc03be02-6b7e-4ed9-a5cd-b364209d8f8e)
+This evidence is one of the key motivators to include other economic parameters and analyze how their performance correlates with the GDP Growth indicator.
