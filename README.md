@@ -35,3 +35,7 @@ Project Overview: The objective of this project is to predict the Canada GDP Gro
 
 
 # Summary of the Analysis
+
+This image shows GDP Growth in blue. It can be deducted that the COVID pandemic lockdown from the year 2020 impacted the unemployment rate, shown in orange.
+
+![2023-12-07 (1)](https://github.com/ahcano/Project_2_machine_learning/assets/141194281/bc03be02-6b7e-4ed9-a5cd-b364209d8f8e)
