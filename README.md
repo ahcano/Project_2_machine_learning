@@ -75,7 +75,9 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
   * Labelled **CND_USD_exchange** in the dataframe.
   * Data source: https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
 
-# Usage and installation instructions
+# Usage 
+
+This project is for information purposes only and is not intended to be used as a base for any high risk investments. The predictions offer only a perspective created artificially using python code ;-)
 
 # Summary of the Analysis
 
