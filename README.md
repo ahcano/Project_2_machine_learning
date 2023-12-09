@@ -17,35 +17,45 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
 * **Consumer Price Index (CPI)** is an economic measure of the monthly change in average goods and services prices paid by household consumers. 
     * The CPI is used as an indicator of inflation and is labeled as **price_indextor** in the dataframe. 
     * For this projects purpose, the Toronto CPI was used as the Canadian representative sample.
-    * data source:  Nasir
+    * Data source:  Nasir
 
 * **Price Index Change** 
-    * data source:
+    * Data source: **price_indextor** dataframe column.?????????????????
+    * Calculated as a monthly decimal percentage change.
       
 * **Inflation Rate**
-    * data source:
+    * According to _Wikipedia_, inflation is a general increase of prices of goods and services in an economy.
+    * Inflation is usually measured using the CPI.
+    * Data source:  
       
 * **Canadian Prime Rate**
-    * data source:  Nasir
+    * Annual interest rate used by Canadian banks for variable loans and lines of credit, including variable-rate mortgages.
+    * The prime rate is primarily influenced by the policy interest rate set by the Bank of Canada.
+    * Data source:  Nasir
 
-* **Canadian TSX Index**
-    * data source:  Ryan
+* **S&P/TSX Index**
+    * According to _Wikipedia_, this Canadian index represents roughly 70% of the total market capitalization on the Toronto Stock Exchange (TSX).
+    * As of September, 2021 the S&P/TSX composite index comprises 237 of the 3,451 companies listed on the TSX.
+    * Securities are generally eligible for inclusion in the composite index by satisfying regulations of market capitalization, liquidity and incorporation under Canadian laws.
+    * Data source:  Ryan
 
 * **Unemployment rate**
-    * data source:  Andrew
+    * This measure is used to track the number or people above 15 years of age that are available for work but are not paid by employment. 
+    * Data source:  Andrew
 
 * **Home ownership rate**
-    * data source:  Ryan
+    * Data source:  Ryan
 
 * **GDP Growth** . Gross domestic product (GDP) is a monetary measure of the market value of all final goods and services produced in a specific period by a country. In this case, Canada.
     * GDP growth is represented as a decimal percentage rate, labeled **GDP_growth** in the dataframe.
     * If positive, the number indicates growth compared to the previous month.
     * A negative rate means there was a decrease relative to the prior month.
-    * (data source: ) Andrew
+    * Data source:  Andrew
 
 * **Canadian - US Dollar Exchange Rate**
-  * Currencies are traded in the FOREX or Foreign Exchange market.
-  * data source: https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
+  * Currencies are traded in Foreign Exchange (FOREX) global markets.
+  * Labelled **CND_USD_exchange** in the dataframe.
+  * Data source: https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
 
 # Usage and installation instructions
 
