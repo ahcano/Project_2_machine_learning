@@ -1,32 +1,55 @@
-# Project Title: GDP Growth Predicted by Machine Learning 
-## 
-Project Overview: The objective of this project is to predict the Canada GDP Growth by applying Machine Learning algorithms to analyze relationships between the consumer price index and variables such as CDN TSX index, Prime Rate, Home Ownership Rate, GDP Growth and CDN/USD exchange rate.
+# **Project Title**: GDP Growth Predicted by Machine Learning 
+ 
+**Project Overview**: The objective of this project is to predict the Canada GDP Growth by applying Machine Learning algorithms to analyze relationships between the consumer price index and variables such as CDN TSX index, Prime Rate, Home Ownership Rate, GDP Growth and CDN/USD exchange rate.
 
-### GDP Growth Rate in Canada with Real Data
-<img width="464" alt="Screenshot 2023-12-07 163758" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/3bfd76be-f676-47da-9fb5-7de44285de76">
+**GDP growth rate in Canada with actual historical data from 2005 to 2023.**
+<p align="center">
+    <img width="464" alt="Screenshot 2023-12-07 163758" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/3bfd76be-f676-47da-9fb5-7de44285de76">
+<p>
+    
+# Data Definitions and Sources
 
+All source data was consolidated in **Starter_Data.csv** file and read into the Python dataframe **ohlcv_df**; the first five samples are shown below.
+<p align="center">
+<img width="765" alt="Screenshot 2023-12-06 180408" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/102c12e8-f6dc-4cfa-ab1e-2d7608c04a7c">
+<p>
+    
+* **Consumer Price Index (CPI)** is an economic measure of the monthly change in average goods and services prices paid by household consumers. 
+    * The CPI is used as an indicator of inflation and is labeled as **price_indextor** in the dataframe. 
+    * For this projects purpose, the Toronto CPI was used as the Canadian representative sample.
+    * data source:  Nasir
 
-# Team Members
-## Ryan Judd
-## Ana Cano
-## Andrew Gopan
-## Nasir Farah
+* **Price Index Change** 
+    * data source:
+      
+* **Inflation Rate**
+    * data source:
+      
+* **Canadian Prime Rate**
+    * data source:  Nasir
 
-# Data Sources
-### Consumer Price Index (CPI) is an economic measure of the monthly change in average goods and services prices paid by household consumers. The CPI is used as an indicator of inflation and is labeled as "price_indextor" in the dataframe. For this projects purpose, the Toronto CPI was used as the Canadian representative sample.
-CPI (data source:  ) Nasir
-### Prime Rate (data source: ) Nasir
-### GDP (data source: ) Andrew
-### Employment rate (data source: ) Andrew
-### Home ownership rate (data source: ) Ryan
-### Canadian dollar against USD. https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
-### S&P 500 (Canadian) (data source: ) Ryan
+* **Canadian TSX Index**
+    * data source:  Ryan
+
+* **Unemployment rate**
+    * data source:  Andrew
+
+* **Home ownership rate**
+    * data source:  Ryan
+
+* **GDP Growth** . Gross domestic product (GDP) is a monetary measure of the market value of all final goods and services produced in a specific period by a country. In this case, Canada.
+    * GDP growth is represented as a decimal percentage rate, labeled **GDP_growth** in the dataframe.
+    * If positive, the number indicates growth compared to the previous month.
+    * A negative rate means there was a decrease relative to the prior month.
+    * (data source: ) Andrew
+
+* **Canadian - US Dollar Exchange Rate**
+  * Currencies are traded in the FOREX or Foreign Exchange market.
+  * data source: https://www.ofx.com/en-ca/forex-news/historical-exchange-rates/monthly-average-rates/ 
 
 # Usage and installation instructions
 
 # Results
-## A dataframe was created to consolidate all the source data:
-<img width="765" alt="Screenshot 2023-12-06 180408" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/102c12e8-f6dc-4cfa-ab1e-2d7608c04a7c">
 
 ## Data clean up involved removal of blank spaces:
 <img width="419" alt="Screenshot 2023-12-06 181022" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/463306da-6a26-4048-adeb-aa95f692d7c6">
@@ -43,3 +66,9 @@ This image shows GDP Growth in blue. It can be deducted that the COVID pandemic 
 
 This evidence is one of the key motivators to include other economic parameters and analyze how their performance correlates with the GDP Growth rate.
     
+# Fintech Analysis and Development
+* Ryan Judd
+* Andrew Gopan
+* Nasir Farah
+* Ana Cano
+
