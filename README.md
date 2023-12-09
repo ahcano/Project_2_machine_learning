@@ -13,7 +13,8 @@ Project Overview: The objective of this project is to predict the Canada GDP Gro
 ## Nasir Farah
 
 # Data Sources
-### CPI (data source:  ) Nasir
+### Consumer Price Index (CPI) is an economic measure of the monthly change in average goods and services prices paid by household consumers. The CPI is used as an indicator of inflation and is labeled as "price_indextor" in the dataframe. For this projects purpose, the Toronto CPI was used as the Canadian representative sample.
+CPI (data source:  ) Nasir
 ### Prime Rate (data source: ) Nasir
 ### GDP (data source: ) Andrew
 ### Employment rate (data source: ) Andrew
@@ -41,3 +42,4 @@ This image shows GDP Growth in blue. It can be deducted that the COVID pandemic 
 <img width="447" alt="Screenshot 2023-12-07 175011" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/fa72cfdd-0b89-4b6c-8e97-85ee053d8bc4">
 
 This evidence is one of the key motivators to include other economic parameters and analyze how their performance correlates with the GDP Growth rate.
+    
