@@ -2,10 +2,23 @@
  
 **Project Overview**: The objective of this project is to predict the Canada GDP Growth by applying Machine Learning algorithms to analyze relationships between the consumer price index and variables such as CDN TSX index, Prime Rate, Home Ownership Rate, GDP Growth and CDN/USD exchange rate.
 
+# Introduction
+
+We started with the target in mind; find a business problem to solve by applying Machine Learning. However, sourcing data posed a "chicken and egg" problem. 
+After one of the team members found sample data of Consumer Price Index (CPI) - a relevant metric in the current socioeconomic environment, the team decided to embark on defining what to predict.
+
 **GDP growth rate in Canada with actual historical data from 2005 to 2023.**
 <p align="center">
     <img width="464" alt="Screenshot 2023-12-07 163758" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/3bfd76be-f676-47da-9fb5-7de44285de76">
 <p>
+
+These images show GDP Growth in blue. It can be deducted that the COVID pandemic lockdown from the year 2020 introduced a spike of unemployment rate, historically shown in orange; while the GDP had a considerable decrease.
+<p align="center">
+<img width="447" alt="Screenshot 2023-12-07 175011" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/fa72cfdd-0b89-4b6c-8e97-85ee053d8bc4">
+<p>
+This observation was one of the key motivators for the Fintech team to analyze other economic parameters and how their performance correlates, using Machine Learning algorithms to make a prediction of the GDP trend over the next few years. 
+With the current economy struggle being a current "hot" topic of interest among industry analysts and the general population alike, we believe that this project promises to provide an interesting insight backed up by tangible facts, as well as a learning journey for the team participants. 
+
     
 # Data Definitions and Sources
 
@@ -64,23 +77,22 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
 
 # Usage and installation instructions
 
-# Results
-
-## Data clean up involved removal of blank spaces:
-<img width="419" alt="Screenshot 2023-12-06 181022" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/463306da-6a26-4048-adeb-aa95f692d7c6">
-
-## Data was normalized using the standard scaler command
-<img width="382" alt="Screenshot 2023-12-06 181209" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/845d165f-6e3a-4e1b-938e-8b79e0b120ac">
-
-
 # Summary of the Analysis
 
-This image shows GDP Growth in blue. It can be deducted that the COVID pandemic lockdown from the year 2020 introduced a spike of unemployment rate, historically shown in orange; while the GDP had a considerable decrease.
+# Results
 
-<img width="447" alt="Screenshot 2023-12-07 175011" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/fa72cfdd-0b89-4b6c-8e97-85ee053d8bc4">
+**GDP growth rate prediction 2023---??**
+_INSERT IMAGE HERE_
 
-This evidence is one of the key motivators to include other economic parameters and analyze how their performance correlates with the GDP Growth rate.
-    
+## Data clean up involved removal of blank spaces:
+<p align="center">
+ <img width="419" alt="Screenshot 2023-12-06 181022" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/463306da-6a26-4048-adeb-aa95f692d7c6">
+<p>
+## Data was normalized using the standard scaler command
+<p align="center">
+ <img width="382" alt="Screenshot 2023-12-06 181209" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/845d165f-6e3a-4e1b-938e-8b79e0b120ac">
+<p>
+
 # Fintech Analysis and Development
 * Ryan Judd
 * Andrew Gopan
