@@ -80,12 +80,12 @@ This project is for information purposes only and is not intended to be used as 
 
 # Summary of the Analysis
 
-Since the GDP data values are continuous, Supervised Learning Regression models were selected for the machine learning prediction approach and variables. 
+Since the GDP values are continuous, Supervised Learning Regression models were selected for the machine learning prediction approach and variables. 
 * The first model was a **neural network**. 
 * The second one, **linear regression**.
 
-Supervised learning involves three steps for prediction output: prepare the input data, fit the model and build the model.
-As an input to both models, the data is split into **X (features)** and **y (target)** variables. Where **y** is GDP_growth, and **X** is all other columns.
+Supervised learning involves three steps for predicting an output: preparing the input data, fitting the model and building the model.
+As an input to both models, the data is split into **X (features)** and **y (target)** variables. Where **y** is GDP_growth, and **X** is all other data labels.
 
 # Results
 
