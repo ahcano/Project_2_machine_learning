@@ -4,8 +4,7 @@
 
 # Introduction
 
-We started with the target in mind; find a business problem to solve by applying Machine Learning. However, sourcing data posed a "chicken and egg" problem. 
-After one of the team members found sample data of Consumer Price Index (CPI) - a relevant metric in the current socioeconomic environment, the team decided to embark on defining what to predict.
+Machine learning is a programming approach for designing applications that learn from their inputs and make adjustments based on their outputs. With that in mind, the problematic was to find a business problem to solve by applying Machine Learning. However, sourcing data posed a "chicken and egg" problem. After one of the team members found sample data of Consumer Price Index (CPI) - a relevant metric in the current socioeconomic environment, the team decided to embark on defining what to predict.
 
 **GDP growth rate in Canada with actual historical data from 2005 to 2023.**
 <p align="center">
@@ -80,6 +79,13 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
 This project is for information purposes only and is not intended to be used as a base for any high risk investments. The predictions offer only a perspective created artificially using python code ;-)
 
 # Summary of the Analysis
+
+Since the GDP data values are continuous, Supervised Learning Regression models were selected for the machine learning prediction approach and variables. 
+* The first model was a **neural network**. 
+* The second one, **linear regression**.
+
+Supervised learning involves three steps for prediction output: prepare the input data, fit the model and build the model.
+As an input to both models, the data is split into **X (features)** and **y (target)** variables. Where **y** is GDP_growth, and **X** is all other columns.
 
 # Results
 
