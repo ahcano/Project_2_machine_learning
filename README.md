@@ -52,22 +52,19 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
     * As of September, 2021 the S&P/TSX composite index comprises 237 of the 3,451 companies listed on the TSX.
     * Securities are generally eligible for inclusion in the composite index by satisfying regulations of market capitalization, liquidity and incorporation under Canadian laws.
     * data is labelled as **cnd_tsx_indx** on the dataframe.
-    * Data source:  Ryan
+    * Data source:  https://ca.finance.yahoo.com/quote/%5EGSPTSE/history?p=%5EGSPTSE
 
 * **Unemployment rate**
     * This measure is used to track the number or people above 15 years of age that are available for work but are not paid by employment. 
     * data is labelled as **unemployment_rate** on the dataframe.
-    * Data source:  Andrew
-
-* **Home ownership rate**
-    * Data source:  Ryan
+    * Data source:  https://www.statcan.gc.ca/ 
 
 * **GDP Growth** . Gross domestic product (GDP) is a monetary measure of the market value of all final goods and services produced in a specific period by a country. In this case, Canada.
     * GDP growth is represented as a decimal percentage rate, labeled **GDP_growth** in the dataframe.
     * If positive, the number indicates growth compared to the previous month.
     * A negative rate means there was a decrease relative to the prior month.
     * data is labelled as **GDP_growth** on the dataframe.
-    * Data source:  Andrew
+    * Data source:  https://www.statcan.gc.ca/
 
 * **Canadian - US Dollar Exchange Rate**
   * Currencies are traded through BUY/SELL transactions in Foreign Exchange (FOREX) markets globally.
