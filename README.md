@@ -91,6 +91,7 @@ Since the GDP values are continuous, Supervised Learning models were selected fo
 * The first model was a **neural network**. 
 * The second one, **linear regression**.
 
+## Linear Regression Analysis
 Supervised learning involves three steps for predicting an output: preparing the input data, fitting the model and building the model.
 As an input to both models, the data is split into **X (features)** and **y (target)** variables. Where **y** is GDP_growth, and **X** is all other data labels.
 
@@ -111,6 +112,25 @@ As an input to both models, the data is split into **X (features)** and **y (tar
 <p align="center">
  <img width="382" alt="Screenshot 2023-12-06 181209" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/845d165f-6e3a-4e1b-938e-8b79e0b120ac">
 <p>
+
+## Neural Network Analysis
+Initially our dataframe looked like this plotted:
+<p align="center">
+<img width="521" alt="all data" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/adc9c014-5c10-474d-9c17-76a93d7389a4">
+
+We had 6 input features (x) and we chose our independent variable (Y) to be GDP growth. We decided to try out three different models, two with three layers (different numbers of nodes per layer) and one with four layers. 
+
+The 1st Model summary was as follows:
+<p align="center">
+<img width="398" alt="Model 1 Summary" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/cf2acd18-1fa3-49d5-abe9-cafe91a97172">
+
+The 2nd Model summary was as follows:
+<p align="center">
+<img width="400" alt="Model 2 Summary" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/01f1a23d-206e-4292-8fbb-cb061e640866">
+
+The 3rd Model summary was as follows:
+<p align="center">
+<img width="395" alt="Model 3 summary" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/cea79e82-7620-4bfd-a4e5-24f3f253d903">
 
 # RESULTS
 
