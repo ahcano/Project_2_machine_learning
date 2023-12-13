@@ -115,6 +115,26 @@ As an input to both models, the data is split into **X (features)** and **y (tar
 # RESULTS
 
 # 1. NEURAL NETWORK
+**Model 1 Results**
+<p align="center">
+<img width="404" alt="Model 1 Results" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/67f1cd30-cfb4-4830-ae55-1c7136c066d8">
+
+ **Model 2 Results**
+<p align="center">
+<img width="418" alt="Model 2 Results" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/14d8cbcb-c7d5-4c87-b4c2-2d7c8cc3b694">
+
+ **Model 3 Results**
+<p align="center">
+<img width="398" alt="Model 3 Results" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/58313fd4-133c-4f25-a6fa-14a1a04be170">
+
+**MSE and MAE for Model 2**
+<p align="center">
+<img width="327" alt="MSE and MAE for Model 2" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/4e855ec7-82b2-49e4-8647-ced1ab3c4111">
+
+**MSE and MAE for Model 3**
+<p align="center">
+<img width="335" alt="MSE and MAE for Model 3" src="https://github.com/ahcano/Project_2_machine_learning/assets/134743177/05f86502-da22-420d-9f29-ca4aa039cd04">
+
 # 2. LINEAR REGRESSION
 
 **GDP growth rate predictions from January to October of 2023**
