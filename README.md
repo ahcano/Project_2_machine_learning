@@ -23,7 +23,7 @@ With the current economy struggle being a current "hot" topic of interest among 
 This project is for information purposes only and is not intended to be used as a base for any high risk investments. The predictions offer only a perspective created artificially using python code ;-)
 
 # Import the dataset into a Pandas Dataframe
-To use the prediction models, simply load the input data in a csv format, replacing the file name on the following python line: 
+To use the prediction models, simply load the input data in a csv format, replacing the file name on the following python line below, and ensuring the column names are the same as in the notebook's dataframes. 
 
 ohlcv_df = pd.read_csv
 (
@@ -52,7 +52,7 @@ All source data was consolidated in **Starter_Data.csv** file and read into the 
     * According to _Wikipedia_, inflation is a general increase of prices of goods and services in an economy.
     * Inflation is usually measured using the CPI.
     * data is labelled as **inflation_rate** on the dataframe.
-    * Data source:  
+    * Data source:  https://www.rateinflation.com/inflation-rate/canada-historical-inflation-rate/
       
 * **Canadian Prime Rate**
     * Annual interest rate used by Canadian banks for variable loans and lines of credit, including variable-rate mortgages.
