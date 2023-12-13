@@ -21,8 +21,10 @@ With the current economy struggle being a current "hot" topic of interest among 
 # Usage and model setup requirements 
 
 This project is for information purposes only and is not intended to be used as a base for any high risk investments. The predictions offer only a perspective created artificially using python code ;-)
-To use the prediction models, simply load the input data in a csv format: 
+
 # Import the dataset into a Pandas Dataframe
+To use the prediction models, simply load the input data in a csv format, replacing the file name on the following python line: 
+
 ohlcv_df = pd.read_csv
 (
     "Starter_Data.csv", 
@@ -105,7 +107,7 @@ As an input to both models, the data is split into **X (features)** and **y (tar
 
 # LINEAR REGRESSION
 
-**GDP growth rate prediction 2023---??**
+**GDP growth rate prediction January to October of 2023**
 <p align="center">
 <img width="186" alt="Screenshot 2023-12-13 102023" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/5762a668-fcb8-4a28-9937-17e2853e3bbf">
 <p> 
