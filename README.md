@@ -94,32 +94,53 @@ Since the GDP values are continuous, Supervised Learning models were selected fo
 Supervised learning involves three steps for predicting an output: preparing the input data, fitting the model and building the model.
 As an input to both models, the data is split into **X (features)** and **y (target)** variables. Where **y** is GDP_growth, and **X** is all other data labels.
 
+<img width="144" alt="Screenshot 2023-12-13 144925" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/3ada3b9b-3076-4e12-b65d-075eb315758c">
+<img width="697" alt="Screenshot 2023-12-13 144917" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/98194ef2-7251-4aae-b40e-708ed0a4499f">
+
+**The data is split to train and test the model**
+<p align="center">
+<img width="500" alt="Screenshot 2023-12-13 104328" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/463f70e5-af99-4afa-b674-a331bfb7e27e">
+<p>
+ 
 ## Data clean up involved removal of blank spaces:
 <p align="center">
  <img width="419" alt="Screenshot 2023-12-06 181022" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/463306da-6a26-4048-adeb-aa95f692d7c6">
 <p>
+ 
 ## Data was normalized using the standard scaler command
 <p align="center">
  <img width="382" alt="Screenshot 2023-12-06 181209" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/845d165f-6e3a-4e1b-938e-8b79e0b120ac">
 <p>
 
-# Results
+# RESULTS
 
-# LINEAR REGRESSION
+# 1. NEURAL NETWORK
+# 2. LINEAR REGRESSION
 
-**GDP growth rate prediction January to October of 2023**
+**GDP growth rate predictions from January to October of 2023**
 <p align="center">
 <img width="186" alt="Screenshot 2023-12-13 102023" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/5762a668-fcb8-4a28-9937-17e2853e3bbf">
 <p> 
+ 
+**Plot of GDP growth predictions**
 <p align="center">
 <img width="449" alt="Screenshot 2023-12-13 101907" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/4eceb820-71fe-433a-aea6-b90395f9b301">
 <p>
+ 
+ **The correlation was calculated for GDP growth in relation to the other independent variables**
 <p align="center">
 <img width="189" alt="Screenshot 2023-12-13 102033" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/4e91019e-424c-45bf-ae3e-9cfb422484fe">
 <p>
+ 
+**Assessment of the linear regression model indicates that the accuracy is 57%, based on the R² calculation**
+
 <p align="center">
 <img width="324" alt="Screenshot 2023-12-13 101942" src="https://github.com/ahcano/Project_2_machine_learning/assets/141194281/632a85fa-e51b-46ff-9928-301758048c47">
 <p>
+ 
+The coefficient of determination (R²) is a number between 0 and 1 that measures how well a statistical model predicts an outcome. It is often written as R2, which is pronounced as “r squared.” For simple linear regressions, a lowercase r is usually used instead (r2). The R2 value ranges from 0 to 1, with a value of 1 indicating a perfect fit of the model to the data, while a value of 0 indicates that the model does not explain any of the variability in the dependent variable. The R-squared metric is a post-metric that is calculated using other metrics. R-squared is calculated mathematically by comparing the Sum of Squares of Errors (SSE) or the Sum of Squared Residuals (SSR) to the Total Sum of Squares (SST).
+
+
 
  # Fintech Analysis and Development
 * Ryan Judd
